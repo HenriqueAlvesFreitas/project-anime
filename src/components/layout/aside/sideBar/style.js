@@ -24,9 +24,16 @@ export const Body = styled.div`
   }
   
   h2{
+    display:flex;
+    align-items:center;
+    gap:6px;
     margin-top:80px;
     margin-left:25px;
     color: white;
+  }
+
+  .icon{
+    width:18px
   }
 
   .content{

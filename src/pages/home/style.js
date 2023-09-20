@@ -17,7 +17,14 @@ align-items:center;
 
 
 h2{
-    color:#f46d1b
+    display:flex;
+    align-items:center;
+    color:#f46d1b;
+    gap:4px;
+}
+
+.icon{
+    color:#ffc016;
 }
 
 .carousel-wrapper{

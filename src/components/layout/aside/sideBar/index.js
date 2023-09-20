@@ -3,6 +3,7 @@ import { Body } from "./style";
 import {FaTimes} from 'react-icons/fa'
 import { GetAllCategories } from "../../../../service/animeService/animeService";
 import { useNavigate } from "react-router-dom";
+import {FaBars} from 'react-icons/fa'
 
 export default function Sidebar({active}){
     const [categories, setCategories] = useState([])
@@ -36,7 +37,10 @@ export default function Sidebar({active}){
     return(
         <Body  sidebar={active}>
             <FaTimes onClick={closeSidebar}/>
-            <h2>≡ Categorias</h2>
+            <h2>
+                <FaBars className="icon"/> 
+                Categorias
+            </h2>
             <div className="content">
                 {categories.map((item, idx)=>(
                     <p key={idx} onClick={()=>{navigate("/anime-list/" + item)}}>{item}</p>

@@ -13,6 +13,7 @@ import AnimeItem from "../../components/animeItem";
 import { isEmpty } from "../../utils/isEmpty";
 import { mountAnimeObj} from './../../utils/mountAnimeObj.js'
 import Loading from "../../components/loading/index.js";
+import {FaStar, FaThumbsUp} from 'react-icons/fa';
 
 export default function Home({history}) {
     const [animeObj, setAnimeObj ] = useState([])
@@ -81,7 +82,11 @@ export default function Home({history}) {
     return(
         <Body>
             <div className="block">
-                <h2>Animes Mais Populares</h2>
+               
+                <h2> 
+                    <FaStar className="icon"/> 
+                    Animes Mais Populares
+                </h2>
                 <div className="animeRow">
                     {!isEmpty(animeObj) ? animeObj.map((item, idx)=><AnimeItem className="animeItem" data={item}/>)
                     :
@@ -107,7 +112,10 @@ export default function Home({history}) {
             </div>
               
             <div style={{marginBottom:"5%"}} className="block">
-                <h2>👍 Animes Mais Bem Classificados</h2>
+                <h2>    
+                    <FaThumbsUp className="icon"/> 
+                    Animes Mais Bem Classificados
+                </h2>
                 <div className="animeRow">
                  {animeByRating.map((item, idx)=><AnimeItem className="animeItem" data={item}/>)}
                 </div>

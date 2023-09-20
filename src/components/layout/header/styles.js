@@ -134,6 +134,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 @media(max-width:480px){
 
+    .titleRow{
+        margin-top:2%;
+    }
+
     .searcher{
         width:20%
     }
