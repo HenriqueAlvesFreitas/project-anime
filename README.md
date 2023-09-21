@@ -40,7 +40,7 @@ Technologies used in this project.
 
 ### 1 - When accessed, you can see the Home Page
 
-![Home Page](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/home1.jpeg)
+![Home Page](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/home1-2.jpeg)
 
 ### 2 - If you want more information, you can just hover your mouse on the images!
 
@@ -65,5 +65,10 @@ Technologies used in this project.
 The main features are:
  - Filter anime List by search or Genre
  - Detail View any anime you like it
+ - Easy view of anime resumed details
+
+### Authors
+* Henrique Freitas
+Please, follow my github, any questions, send me a message on instagram!
 
 
