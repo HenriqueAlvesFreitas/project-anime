@@ -106,7 +106,7 @@ export default function Home({history}) {
                     handleCarousel(item)
                 }}>
                     {images.map((item, idx)=>(
-                    <img src={item.image} key={idx} onClick={()=>{navigate("anime/" + item.id)}}/>
+                    <img alt={idx} src={item.image} key={idx} onClick={()=>{navigate("anime/" + item.id)}}/>
                     ))}
                 </Carousel>
             </div>

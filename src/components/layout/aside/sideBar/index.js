@@ -23,9 +23,9 @@ export default function Sidebar({active}){
             (resp)=>{
                 let list =[]
                 let obj = resp.data.data
-                obj.map((item, idx)=>{
+                obj.map((item)=>(
                     list.push(item.attributes.title)
-                })
+                ))
                 setCategories(list)
 
             },

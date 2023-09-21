@@ -63,6 +63,7 @@ input{
     font-weight: bold;
     width:85%;
     padding:1px;
+    padding-left:3px;
 }
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
@@ -96,6 +97,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
+    align-items:center;
    
    
 }

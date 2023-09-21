@@ -2,7 +2,7 @@ import { selectName } from "../../utils/selectName";
 import { Body } from "./style"
 import { useNavigate } from "react-router-dom"
 import { ellipsis } from "../../utils/ellipses";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 
 export default function AnimeItem({data, className}){
@@ -14,7 +14,7 @@ export default function AnimeItem({data, className}){
     return(
         <Body>  
             <div className="detail" style={{position:"relative"}}>
-                <img style={{backgroundColor:'gray'}} loading="lazy" src={data.image} className={className} alt="teste" onClick={()=>{navigate("/anime/" + data.id_anime)}}/>
+                <img style={{backgroundColor:'gray'}} loading="lazy" src={data.image} className={className} alt={selectName(data)} onClick={()=>{navigate("/anime/" + data.id_anime)}}/>
                 <span className="description">
                     <p className="title">{selectName(data)}</p>
                     <p className="rating">{data.rating}%</p>
