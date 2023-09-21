@@ -14,7 +14,7 @@ Technologies used in this project.
 * Github
 * Kitsu API
 
-## Used dependencys
+## Used dependencies
 
 * styled-components
 * react-elastic-carousel
@@ -23,14 +23,47 @@ Technologies used in this project.
 * axios
 * mui/materials
 
-### npm install styled-components --force
+## Getting Started
 
-### npm install react-elastic-carousel --force
+* Node Modules
+*   - npm install --force
 
-### npm install react-icons --force
+* Dependecies 
+  - npm install styled-components --force
+  - npm install react-elastic-carousel --force
+  - npm install react-icons --force
+  - npm install react-router-dom --force
+  - npm install axios --force
+  - npm install @mui/material @emotion/react @emotion/styled
+ 
+## How to use it!
 
-### npm install react-router-dom --force
+### 1 - When accessed, you can see the Home Page
 
-### npm install axios --force
+![Home Page](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/home1.jpeg)
 
-### npm install @mui/material @emotion/react @emotion/styled
+### 2 - If you want more information, you can just hover your mouse on the images!
+
+![Hover images](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/home2.jpeg)
+
+### 3 - You can access other anime genres if you don't like the Home Page ones
+
+![Side Menu](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/sideMenu.jpeg)
+
+### 4 - Are you not confident yet ? Then just go to the footer and List all animes!
+![Footer](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/home3.jpeg)
+
+### 5 - You will see 10 animes at the same time, and just need to click the button for more 10!
+
+![List](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/list.jpeg)
+
+### 6 - Looks like you could find something you like it, want to know more about it ? Then just click on the image!
+
+![Detailing](https://github.com/HenriqueAlvesFreitas/project-anime/blob/master/public/readme-images/detailing.jpeg)
+
+## Features
+The main features are:
+ - Filter anime List by search or Genre
+ - Detail View any anime you like it
+
+
