@@ -68,7 +68,8 @@ The main features are:
  - Easy view of anime resumed details
 
 ### Authors
-* Henrique Freitas
+* **Henrique Freitas**
+
 Please, follow my github, any questions, send me a message on instagram!
 
 
