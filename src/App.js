@@ -5,11 +5,14 @@ import Header from './components/layout/header/index.js'
 import {Body} from './style/style.js'
 import MyRoutes from './routes.js';
 
+
 import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
   return(
+    <>
+    
     <BrowserRouter>
       <div style={{position:"relative"}}>
         <Body>
@@ -22,6 +25,7 @@ function App() {
         <Footer/>
       </div>
     </BrowserRouter>
+    </>
   )
 }
 
